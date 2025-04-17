@@ -46,3 +46,6 @@ function UpdateTabActive() {
 function Update() {
     UpdateTabActive();
 }
+
+AppendTabListener("home-tab")
+AppendTabListener("resources-tab")

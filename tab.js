@@ -13,6 +13,7 @@ function AppendTabListener(TabID) {
                 ACTIVETABS[i]=1;
             }
         }
+        Update();
     })
 }
 
@@ -49,3 +50,4 @@ function Update() {
 
 AppendTabListener("home-tab")
 AppendTabListener("resources-tab")
+Update();

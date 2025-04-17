@@ -42,6 +42,7 @@ function UpdateTabActive() {
         tab.classList.remove("active");
     });
     TabActive.classList.add("active");
+    console.log(TabActive)
 }
 
 function Update() {
